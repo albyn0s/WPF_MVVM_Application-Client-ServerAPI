@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿WPF_application
 
 
@@ -18,3 +19,25 @@ DepEditWindow.xaml;EditWindow.xaml;MainWindow.xaml;
 
 True
 
+=======
+﻿WPF_application
+
+
+exe
+C#
+.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\
+WPF_application
+none
+false
+DEBUG;TRACE
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\App.xaml
+3197722760
+
+151326317875
+19-1297694291
+DepEditWindow.xaml;EditWindow.xaml;MainWindow.xaml;
+
+True
+
+>>>>>>> 5bd1de91cf308b3afa5db67b230b886b6fce0121

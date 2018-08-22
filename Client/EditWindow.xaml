@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Window ShowInTaskbar="False"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -60,3 +61,67 @@
 
     </Grid>
 </Window>
+=======
+﻿<Window ShowInTaskbar="False"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_application"
+        xmlns:ViewModel="clr-namespace:WPF_application.ViewModel" x:Class="WPF_application.EditWindow"
+        mc:Ignorable="d"
+        Title="Редактор сотрудника" Height="219.5" Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" AllowsTransparency="True" WindowStyle="None" BorderBrush="White" AllowDrop="True">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFFF003A" Offset="0"/>
+            <GradientStop Color="#FF0097FF" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid x:Name="editWindowList" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,14,4,10" Width="280" Height="167">
+        <TextBox Text="{Binding Path=SelectedEmployee.Name, UpdateSourceTrigger=Explicit}" x:Name="textBox_name"  Margin="94,10,0,133" Width="168" HorizontalAlignment="Left"/>
+        <TextBox Text="{Binding Path=SelectedEmployee.SurName, UpdateSourceTrigger=Explicit}" x:Name="textBox_surname"  Margin="94,41,0,103" Width="168" HorizontalAlignment="Left"/>
+        <TextBox Text="{Binding Path=SelectedEmployee.Age, UpdateSourceTrigger=Explicit}" x:Name="textBox_age"  Margin="94,72,0,70" Width="168" HorizontalAlignment="Left"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,13,0,0" TextWrapping="Wrap" Text="Имя :" VerticalAlignment="Top" RenderTransformOrigin="0.621,-0.812"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,43,0,0" TextWrapping="Wrap" Text="Фамилия :" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,76,0,0" TextWrapping="Wrap" Text="Возраст :" VerticalAlignment="Top"/>
+
+        <Button x:Name="Save_btn" 
+                HorizontalAlignment="Left" 
+                Margin="46,138,0,0" 
+                VerticalAlignment="Top" 
+                Width="86" 
+                Content="Сохранить"
+                Command="{Binding Path=Save}" 
+                Height="24" 
+                Click="Сохранить_Click"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="28,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Отдел "/><Run Text=":"/></TextBlock>
+        <ComboBox x:Name="DepNamesBox" ItemsSource="{Binding Path=departaments}" Text="{Binding Path=SelectedEmployee.Department}" HorizontalAlignment="Left" Margin="94,104,0,0" VerticalAlignment="Top" Width="142" Height="21">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding DepName}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button x:Name="settings_deps"
+                Content="..." 
+                HorizontalAlignment="Left" 
+                Margin="243,104,0,0" 
+                VerticalAlignment="Top" 
+                Width="19" 
+                Height="21" 
+                Command="{Binding windowEditDep}"/>
+        <Button 
+            x:Name="Cancel_btn" 
+            HorizontalAlignment="Left" 
+            Margin="150,138,0,0" 
+            VerticalAlignment="Top" 
+            Width="86" 
+            Content="Отменить"
+            Command="{Binding Path=Cancel}" 
+            Height="24"/>
+
+    </Grid>
+</Window>
+>>>>>>> 5bd1de91cf308b3afa5db67b230b886b6fce0121

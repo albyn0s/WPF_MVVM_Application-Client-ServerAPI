@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\WPF_application.exe.config
 C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\WPF_application.exe
 C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\WPF_application.pdb
@@ -23,3 +24,30 @@ C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\Newtonsoft.
 C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.csproj.CopyComplete
 C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\GeneratedInternalTypeHelper.g.cs
+=======
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\WPF_application.exe.config
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\WPF_application.exe
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\WPF_application.pdb
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\App.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application_MarkupCompile.cache
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application_MarkupCompile.lref
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.g.resources
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.Properties.Resources.resources
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.csproj.GenerateResource.cache
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.csproj.CoreCompileInputs.cache
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.exe
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.pdb
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\MainWindow.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\MainWindow.baml
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.csprojAssemblyReference.cache
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\EditWindow.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\EditWindow.baml
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\DepEditWindow.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\DepEditWindow.baml
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\WPF_application.csproj.CopyComplete
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Debug\GeneratedInternalTypeHelper.g.cs
+>>>>>>> 5bd1de91cf308b3afa5db67b230b886b6fce0121
