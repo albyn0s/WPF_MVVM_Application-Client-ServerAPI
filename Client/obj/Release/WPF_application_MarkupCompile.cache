@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿WPF_application
+WPF_application
 
 
 winexe
@@ -18,26 +17,3 @@ C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\App.xaml
 MainWindow.xaml;Views\AppItemView.xaml;Views\EmployeeItemView.xaml;
 
 True
-
-=======
-﻿WPF_application
-
-
-winexe
-C#
-.cs
-C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Release\
-WPF_application
-none
-false
-TRACE
-C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\App.xaml
-3-484572679
-
-13-531083899
-131254293103
-MainWindow.xaml;Views\AppItemView.xaml;Views\EmployeeItemView.xaml;
-
-True
-
->>>>>>> 5bd1de91cf308b3afa5db67b230b886b6fce0121
