@@ -1,0 +1,7 @@
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Release\MainWindow.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Release\Views\AppItemView.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Release\Views\EmployeeItemView.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Release\App.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Release\WPF_application_MarkupCompile.cache
+C:\Users\dmitry\Desktop\GB\WPF_application\WPF_application\obj\Release\WPF_application_MarkupCompile.lref
